@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../assets/styles/Card.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import left from "../assets/images/Group 60.png"
 import right from "../assets/images/Group 61.png"
