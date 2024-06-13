@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.nav-main {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.248);
+  font-size: 0.85rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+}
+.nav-link {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin: 0 10px;
+}
+.nav-link:hover {
+  color: #132b68;
+  font-weight: 700;
+  cursor: pointer;
+}
+.nav-button {
+  background: radial-gradient(circle at top left, #8cbdf1, #123a77);
+  border: 3px solid white;
+  border: none;
+  color: white;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 40px;
+}
+.nav-button:hover {
+  background: radial-gradient(circle at bottom right, #8cbdf1, #123a77);
+  color: white;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler.custom-class .navbar-toggler-icon {
+  color: #ff0000;
+}
+
+@media (max-width: 1054px) {
+  .nav-link {
+    margin: 0 5px;
+  }
+}
+@media (max-width: 992px) {
+  .nav-main {
+    text-align: center;
+  }
+  .nav-button {
+    margin: auto;
+  }
+}
+@media (max-width: 500px) {
+  .nav-main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
