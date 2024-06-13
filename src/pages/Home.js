@@ -11,9 +11,9 @@ const Home = () => {
     <div>
       <div className="Bann-ri">
         <div className="blue-box">
-          <h2 className="mb-4" id="astro" style={{ lineHeight: "50px" }}>
+          <h1 className="mb-4" id="astro" style={{ fontSize:'2rem' }}>
             OUTSTANDING SERVICES MAKES THE DIFFERENCE{" "}
-          </h2>
+          </h1>
           <p style={{ fontSize: "0.85rem" }}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

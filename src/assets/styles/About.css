@@ -1,0 +1,64 @@
+#ab {
+    background-image: url("../images/aboutop.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .lorem-top{
+    display: flex;
+  }
+  @media(max-width:1240px){
+    .lorem-top{
+        flex-direction: column;
+    }
+  }
+.lorem{
+    border: 1px solid #7E7E7E;
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+}
+.lorem:hover{
+    background-color: #132B68;
+    border: none;
+    color: white;
+}
+.lorem h5{
+    font-weight: 900;
+}
+.lorem p{
+    font-size: 0.85rem;
+    line-height: 28px;
+}
+.ho{
+  display: flex;
+  gap: 50px;
+}
+
+@media(max-width:1120px){
+  .caroo{
+    margin-top: -50px;
+  }
+}
+@media(max-width:870px){
+  .caroo{
+    margin-top: -100px;
+  }
+}
+@media(max-width:840px){
+  .ho{
+    flex-direction: column;
+  }
+}
+@media(max-width:590px){
+  #contr{
+    height: 300px;
+  }
+}
+@media(max-width:400px){
+  #contr{
+    height: 250px;
+  }
+}

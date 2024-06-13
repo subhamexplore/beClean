@@ -6,11 +6,14 @@ function Footer() {
   return (
     <div className="footer" id="footer-back">
       <div className="footerContainer">
-        <div className="footerSubContainer-1">
+        <div className="onee footerSubContainer">
           <div className="footerHeadd" id="astro">
-            Let’s make something great work together
+            Let’s make something great 
           </div>
-          <div className="d-flex">
+          <div className="footerHeadd" style={{marginTop:'-50px'}} id="astro">
+            work together
+          </div>
+          <div className="cont-foot">
             <div className="footerContentSet">
               <div className="footerHighlightTextOne">CALL OUR OFFICE</div>
               <a
@@ -21,7 +24,7 @@ function Footer() {
                 + 123 456 78910
               </a>
             </div>
-            <div className="footerContentSet mx-5">
+            <div className="footerContentSet smss">
               <div
                 className="footerHighlightTextOne"
                 style={{ marginRight: "10px" }}
@@ -38,24 +41,26 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="footerSubContainer">
-          <div className="footerHead">COMPANY</div>
-          <div>
-            <div className="footerNormalText">Info</div>
-            <div className="footerNormalText">Services</div>
-            <div className="footerNormalText">Projects</div>
-            <div className="footerNormalText">Gallery</div>
-            <div className="footerNormalText">Company</div>
+        <div className="twoo">
+          <div className="footerSubContainer">
+            <div className="footerHead">COMPANY</div>
+            <div>
+              <div className="footerNormalText">Info</div>
+              <div className="footerNormalText">Services</div>
+              <div className="footerNormalText">Projects</div>
+              <div className="footerNormalText">Gallery</div>
+              <div className="footerNormalText">Company</div>
+            </div>
           </div>
-        </div>
-        <div className="footerSubContainer">
-          <div className="footerHead">FOLLOW US</div>
-          <div>
-            <div className="footerNormalText">Pinterest</div>
-            <div className="footerNormalText">Instagram</div>
-            <div className="footerNormalText">Dribbble</div>
-            <div className="footerNormalText">Behance</div>
-            <div className="footerNormalText">Twitter</div>
+          <div className="threee footerSubContainer">
+            <div className="footerHead">FOLLOW US</div>
+            <div>
+              <div className="footerNormalText">Pinterest</div>
+              <div className="footerNormalText">Instagram</div>
+              <div className="footerNormalText">Dribbble</div>
+              <div className="footerNormalText">Behance</div>
+              <div className="footerNormalText">Twitter</div>
+            </div>
           </div>
         </div>
         <div className="footerSubContainer">

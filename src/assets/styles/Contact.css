@@ -1,0 +1,221 @@
+.Bann-y {
+  background-image: url("../images/contact.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.who-y ul {
+  text-align: center;
+  color: #fff6f6;
+  font-size: 55px;
+}
+
+.journal-blog-y {
+  display: flex;
+  align-items: center;
+  padding: 60px 200px;
+}
+.button-machine button {
+  cursor: pointer;
+  padding: 8px 22px;
+  border-radius: 4px;
+  background-color: #ffefe7;
+  color: #fe5d14;
+  border: none;
+}
+
+.journal-image {
+  padding-top: 40px;
+  border-radius: 10px 20px;
+  padding-left: 80px;
+}
+
+.li {
+  color: white;
+}
+
+
+.who-y h1 {
+  text-align: center;
+  color: #fff6f6;
+}
+
+.home-about-dot-y {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.home-about-dot-y p {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 13px;
+}
+
+.home-about-dot-y img {
+  width: 6px;
+  height: 6px;
+}
+
+.sub-w {
+  display: flex;
+}
+.sub-w p {
+  color: #fff6f6;
+
+  margin-top: 30px;
+}
+
+.contactRight {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.contactTxt {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 8px;
+}
+.det{
+    margin: 0 20px;
+}
+.det div{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.girl{
+    height: 20vw;
+}
+.reach-p img{
+  height: 80px;
+}
+.contactTxt:hover {
+  font-weight: 600;
+}
+
+.contactDesc {
+  color: rgba(119, 120, 136, 1);
+  font-size: 15px;
+  margin-right: 30px;
+  line-height: 40px;
+}
+
+.midcontact img {
+  height: 530px;
+}
+.form-y form {
+    width: 75%;
+}
+.form-iy {
+  padding-top: 40px;
+}
+
+.form-iy h1 {
+  color: #000000;
+  font-weight: bold;
+}
+.form-m {
+  display: block;
+}
+.form-m label{
+    font-weight: 900;
+    margin: 12px 0;
+}
+
+.in-form{
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #132B68;
+}
+
+.button-sub button {
+  cursor: pointer;
+  padding: 8px 22px;
+  border-radius: 4px;
+  background-color: #ff4500;
+  color: #fff6f6;
+  border: none;
+  width: 300px;
+}
+
+
+.form-cont-h{
+    text-align: left;
+}
+
+.form-cont-p{
+    text-align: left;
+}
+@media (max-width: 1242px) {
+  .journal-blog-y {
+    padding: 60px 50px;
+  }
+}
+@media (max-width: 1047px) {
+  .journal-blog-y {
+    padding: 100px 50px;
+  }
+}
+@media (max-width: 940px) {
+  .journal-blog-y {
+    padding: 100px 40px;
+  }
+}
+@media (max-width: 841px) {
+  .midcontact {
+    display: none;
+  }
+  .journal-blog-y {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .girl{
+    height: 300px;
+  }
+  .form-y {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .contactRight {
+    margin-top: 50px;
+    width: auto;
+    margin: 50px;
+  }
+}
+@media(max-width:525px){
+    .contactRight{
+        transform: scale(0.85);
+        margin-top: -5px;
+        margin-bottom: -50px;
+    }
+}
+@media(max-width:460px){
+    .contactRight{
+        transform: scale(0.75);
+        margin-top: -5px;
+        margin-bottom: -100px;
+    }
+}
+@media (max-width: 410px) {
+  .journal-blog-y {
+    transform: scale(0.9);
+    margin-top: -50px;
+    margin-left: -5px;
+  }
+}
+@media (max-width: 373px) {
+  .journal-blog-y {
+    transform: scale(0.9);
+    margin-top: -50px;
+    margin-left: -6px;
+  }
+}
