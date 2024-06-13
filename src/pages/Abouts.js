@@ -3,10 +3,73 @@ import Benefits from "../assets/images/Group 75.png";
 import Product from "../assets/images/aboutCir.png";
 import covid from "../assets/images/women.png";
 import construction from "../assets/images/factry.png";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import caro1 from "../assets/images/caro1.png";
+import caro2 from "../assets/images/caro2.png";
+import caro3 from "../assets/images/caro3.png";
 import caro from "../assets/images/caro.png";
-import Card from "../components/CardCaro";
+import { useNavigate } from "react-router-dom";
 
 const Abouts = () => {
+  const nav = useNavigate();
+  const carosettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+  var settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    nextArrow: <Arrow />,
+    prevArrow: <Arrow />,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
+  function Arrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          color: "red",
+          background: "black",
+          borderRadius: "50%",
+          transform: "scale(1.2)",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
   return (
     <div>
       <div className="Bann-ri" id="ab">
@@ -21,6 +84,7 @@ const Abouts = () => {
           </p>
           <div className="button-get-r" type="button">
             <button
+              onClick={() => nav("/contact")}
               className="who-btn-gs"
               style={{
                 border: "3px solid white",
@@ -90,63 +154,54 @@ const Abouts = () => {
         </div>
       </div>
 
-      <div className="caroo">
-        <div id="carouselExampleFade" className="carousel slide carousel-fade">
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img
-                src={caro}
-                className="d-block w-100"
-                alt="..."
-                style={{ margin: "auto", padding: "50px" }}
-              />
-            </div>
-            <div className="carousel-item active">
-              <img
-                src={caro}
-                className="d-block w-100"
-                alt="..."
-                style={{ margin: "auto", padding: "50px" }}
-              />
-            </div>
-            <div className="carousel-item active">
-              <img
-                src={caro}
-                className="d-block w-100"
-                alt="..."
-                style={{ margin: "auto", padding: "50px" }}
-              />
-            </div>
+      <div className="container slider-container">
+        <Slider {...carosettings}>
+          <div className="d-flex justify-content-center caro-div">
+            <img className="caro-slide-one" src={caro} alt="" />
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div><br /><br />
-      <div style={{display:'flex', justifyContent:'center'}}>
-        <Card />
-      </div><br /><br />
+          <div className="d-flex justify-content-center caro-div">
+            <img className="caro-slide-one" src={caro} alt="" />
+          </div>
+          <div className="d-flex justify-content-center caro-div">
+            <img className="caro-slide-one" src={caro} alt="" />
+          </div>
+          <div className="d-flex justify-content-center caro-div">
+            <img className="caro-slide-one" src={caro} alt="" />
+          </div>
+        </Slider>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <div className="container caro-crd">
+        <Slider {...settings}>
+          <div className="d-flex justify-content-center">
+            <img src={caro1} className="caro-cards" alt="" />
+          </div>
+          <div className="d-flex justify-content-center">
+            <img src={caro2} className="caro-cards" alt="" />
+          </div>
+          <div className="d-flex justify-content-center">
+            <img src={caro3} className="caro-cards" alt="" />
+          </div>
+          <div className="d-flex justify-content-center">
+            <img src={caro1} className="caro-cards" alt="" />
+          </div>
+          <div className="d-flex justify-content-center">
+            <img src={caro2} className="caro-cards" alt="" />
+          </div>
+          <div className="d-flex justify-content-center">
+            <img src={caro3} className="caro-cards" alt="" />
+          </div>
+        </Slider>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="about-v-r">
         <div className="rice-b">
           <img src={covid} alt="" className="hand-img-r" />
@@ -262,6 +317,34 @@ const Abouts = () => {
 
         <div className="rice-ir-2">
           <img id="contr" src={construction} alt="" className="" />
+        </div>
+      </div>
+
+      <div className="Bann-rix">
+        <div className="emptyy" style={{ width: "40%" }}></div>
+        <div className="st-bn">
+          <div className="statement">
+            <h6 className="fw-light">STATEMENT</h6>
+
+            <h2 className="fw-bold" id="astro">
+              CAPABILITY STATEMENT
+            </h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s
+            </p>
+            <div className="button-get-r" id="donw-btn" type="button">
+              <a href="https://drive.google.com/uc?export=download&id=17iVR9JrfukXVqmMuRAsTsekPX5DAdvw6">
+                <button
+                  className="who-btn-gs"
+                  style={{ border: "3px solid white", borderRadius: "8px" }}
+                >
+                  Click here to download
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

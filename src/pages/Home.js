@@ -5,13 +5,16 @@ import Dot from "../assets/images/Ellips-e.png";
 import Product from "../assets/images/Group 132.png";
 import covid from "../assets/images/Group 52.png";
 import construction from "../assets/images/Group 10.png";
+import Company from "../assets/images/comp.png";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const nav = useNavigate();
   return (
     <div>
       <div className="Bann-ri">
         <div className="blue-box">
-          <h1 className="mb-4" id="astro" style={{ fontSize:'2rem' }}>
+          <h1 className="mb-4" id="astro" style={{ fontSize: "2rem" }}>
             OUTSTANDING SERVICES MAKES THE DIFFERENCE{" "}
           </h1>
           <p style={{ fontSize: "0.85rem" }}>
@@ -118,7 +121,7 @@ const Home = () => {
             </div>
           </div>
           <div className="button-get-r" type="button">
-            <button className="who-btn-gs">Book a free consultation</button>
+            <button onClick={()=>nav('/contact')} className="who-btn-gs">Book a free consultation</button>
           </div>
         </div>
 
@@ -166,7 +169,7 @@ const Home = () => {
             <li>Wipe and disinfect all workstation tables and chairs.</li>
           </ul>
           <div className="button-get-r" type="button">
-            <button className="who-btn-gs">Book a free consultation</button>
+            <button onClick={()=>nav('/contact')} className="who-btn-gs">Book a free consultation</button>
           </div>
         </div>
       </div>
@@ -209,7 +212,7 @@ const Home = () => {
             </li>
           </ul>
           <div className="button-get-r" type="button">
-            <button className="who-btn-gs">Book a free consultation</button>
+            <button onClick={()=>nav('/contact')} className="who-btn-gs">Book a free consultation</button>
           </div>
         </div>
 
@@ -218,29 +221,49 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="Bann-rix">
-        <div className="emptyy" style={{ width: "40%" }}></div>
-        <div className="st-bn">
-          <div className="statement">
-            <h6 className="fw-light">STATEMENT</h6>
-
-            <h2 className="fw-bold" id="astro">
-              CAPABILITY STATEMENT
-            </h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
+      <div className="about-v-r ">
+        <div className="text-v-r">
+          <h5 className="fw-bold" id="astro">
+            Codes
+          </h5><br />
+          <ul style={{ color: "black", fontSize: "15px" }}>
+            <li>DUNS - 100019735</li>
+            <li>CAGE - 8BLG3</li>
+            <li>NIACS Codes - 561720, 561740, 562998, 561790, 561210</li>
+          </ul>
+          <h5 className="fw-bold" id="astro">
+            Memberships:
+          </h5><br />
+          <div style={{ color: "black", fontSize: "15px", lineHeight: "15px" }}>
+            <p style={{ color: "black", fontSize: "15px" }}>
+              Member of the Chicago Chamber of Commerce
             </p>
-            <div className="button-get-r" id="donw-btn" type="button">
-              <button
-                className="who-btn-gs"
-                style={{ border: "3px solid white", borderRadius: "8px" }}
-              >
-                Click here to download
-              </button>
-            </div>
+            <p style={{ color: "black", fontSize: "15px" }}>
+              Member of the Shreveport Chamber of Commerce
+            </p>
+            <p style={{ color: "black", fontSize: "15px" }}>
+              Member of the RBCA Regional Black Contractors Association
+            </p>
+            <p style={{ color: "black", fontSize: "15px" }}>
+              Member of the National Black Contractors Association
+            </p>
+            <p style={{ color: "black", fontSize: "15px" }}>
+              Member of the Atlanta Chamber of Commerce
+            </p>
           </div>
+          <h5 className="fw-bold" id="astro">
+            Certifications:
+          </h5><br />
+          <div style={{ color: "black", fontSize: "15px", lineHeight: "15px" }}>
+            <p style={{ color: "black", fontSize: "15px" }}>Member of the Chicago Chamber of Commerce</p>
+            <p style={{ color: "black", fontSize: "15px" }}>Member of the Shreveport Chamber of Commerce</p>
+            <p style={{ color: "black", fontSize: "15px" }}>Member of the RBCA Regional Black Contractors Association</p>
+            <p style={{ color: "black", fontSize: "15px" }}>Member of the National Black Contractors Association</p>
+            <p style={{ color: "black", fontSize: "15px" }}>Member of the Atlanta Chamber of Commerce</p>
+          </div>
+        </div>
+        <div className="rice-b-2">
+          <img src={Company} alt="" className="hand-img-r" />
         </div>
       </div>
     </div>

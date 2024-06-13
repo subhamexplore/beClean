@@ -62,3 +62,81 @@
     height: 250px;
   }
 }
+
+.caro-cards{
+  height: 300px;
+}
+@media(max-width:1200px){
+  .caro-cards{
+    height: 250px;
+  }
+}
+@media(max-width:992px){
+  .caro-cards{
+    height: 200px;
+  }
+  .caro-crd{
+    padding: 0 0;
+  }
+}
+@media(max-width:768px){
+  .caro-cards{
+    height: 200px;
+  }
+  .caro-crd{
+    padding: 0 30px;
+  }
+}
+@media(max-width:600px){
+  .caro-cards{
+    height: 300px;
+  }
+  .caro-crd{
+    padding: 0 50px;
+  }
+}
+@media(max-width:425px){
+  .caro-cards{
+    height: 250px;
+  }
+  .caro-crd{
+    padding: 0 50px;
+  }
+}
+@media(max-width:370px){
+  .caro-cards{
+    height: 230px;
+  }
+  .caro-crd{
+    padding: 0 50px;
+  }
+}
+
+.caro-slide-one{
+  height: 300px;
+}
+@media(max-width:1250px){
+  .caro-slide-one{
+    height: 250px;
+  }
+}
+@media(max-width:1200px){
+  .caro-slide-one{
+    height: 200px;
+  }
+}
+@media(max-width:992px){
+  .caro-slide-one{
+    height: 150px;
+  }
+}
+@media(max-width:768px){
+  .caro-slide-one{
+    height: 100px;
+  }
+}
+@media(max-width:415px){
+  .caro-slide-one{
+    height: 70px;
+  }
+}
