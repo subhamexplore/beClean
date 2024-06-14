@@ -7,6 +7,8 @@ import covid from "../assets/images/Group 52.png";
 import construction from "../assets/images/Group 10.png";
 import Company from "../assets/images/comp.png";
 import { useNavigate } from "react-router-dom";
+import video from "../assets/videos/vid.mp4";
+import cc from "../assets/images/cc.png";
 
 const Home = () => {
   const nav = useNavigate();
@@ -42,10 +44,14 @@ const Home = () => {
       <br />
       <div className="about-v-r">
         <div className="rice-b-1">
-          <img src={Benefits} alt="" className="hand-img-r" />
+          {/* <img src={Benefits} alt="" className="hand-img-r" /> */}
+          <video className="hand-img-r" poster={Benefits} controls>
+            <source src={video} type="video/mp4" />
+          </video>
+          <img className="cc" src={cc} alt="" />
         </div>
 
-        <div className="text-v-r">
+        <div className="text-v-r mx-5">
           <h6 className="fw-light">WHAT WE DO</h6>
 
           <h2 className="fw-bold" id="astro">
@@ -161,7 +167,7 @@ const Home = () => {
             <li>Wipe and disinfect all workstation tables and chairs.</li>
           </ul>
           <div className="button-get-r" type="button">
-          <a
+            <a
               href="https://www.honeybook.com/widget/vision_group_cleaning_279052/cf_id/666b72c762383900258d8246"
               target="_blank"
             >
@@ -209,7 +215,7 @@ const Home = () => {
             </li>
           </ul>
           <div className="button-get-r" type="button">
-          <a
+            <a
               href="https://www.honeybook.com/widget/vision_group_cleaning_279052/cf_id/666b72c762383900258d8246"
               target="_blank"
             >
@@ -230,7 +236,6 @@ const Home = () => {
           </h5>
           <br />
           <ul style={{ color: "black", fontSize: "15px" }}>
-            <li>DUNS - 100019735</li>
             <li>CAGE - 8BLG3</li>
             <li>NIACS Codes - 561720, 561740, 562998, 561790, 561210</li>
           </ul>
