@@ -17,3 +17,9 @@
   .gallery{
     height: 40vw;
   }
+
+  @media(max-width:401px){
+    .gallery{
+      height: 50vw;
+    }
+  }
