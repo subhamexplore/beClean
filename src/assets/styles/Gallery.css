@@ -21,16 +21,26 @@
     display: none;
   }
 
-  @media(max-width:401px){
+  @media(max-width:501px){
     .gallery{
       display: none;
     }
     .ph-gallery{
       display: block;
+      height: 1850px;
+    }
+  }
+  @media(max-width:450px){
+    .ph-gallery{
+      height: 1700px;
+    }
+  }
+  @media(max-width:415px){
+    .ph-gallery{
       height: 1500px;
     }
   }
-  @media(max-width:360px){
+  @media(max-width:370px){
     .ph-gallery{
       height: 1400px;
     }
