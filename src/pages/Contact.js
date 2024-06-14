@@ -88,9 +88,7 @@ const Contact = () => {
               Let's Talk
             </h1>
             <p className="form-cont-p" style={{ color: "#7E7E7E" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
+            Get in touch with VISION Group Cleaning today to schedule a service or learn more about how we can keep your spaces immaculate and welcoming.
             </p>
             <div className="d-flex" style={{ gap: "10px" }}>
               <div className="form-m" style={{ width: "100%" }}>
@@ -204,7 +202,7 @@ const Contact = () => {
             </div>
             <div className="det">
               <div>Quick Contact</div>
-              <p className="">info@beclean.com</p>
+              <a href="mailto:inquiries@vgcleaning.com" style={{ textDecoration: "none", color:'black' }} className="">inquiries@vgcleaning.com</a>
             </div>
           </div>
           <div className="contactTxt">
@@ -213,7 +211,7 @@ const Contact = () => {
             </div>
             <div className="det">
               <div>Call Us</div>
-              <p className="">+1 987 654 3210</p>
+              <a href="tel:8179379888" style={{ textDecoration: "none", color:'black' }} className="">817-937-9888</a>
             </div>
           </div>
           <div className="contactTxt">
@@ -223,7 +221,7 @@ const Contact = () => {
             <div className="det">
               <div>Location</div>
               <p className="">
-                1234 Maple AvenueSpringfield, IL 62704
+              2580 W. Camp Wisdom Rd.Suite 100-187 Grand Prairie, TX 75052
               </p>
             </div>
           </div>

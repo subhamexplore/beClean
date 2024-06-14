@@ -19,8 +19,8 @@
 .footerContainer{
     display: flex;
     flex-wrap: wrap;
-    gap:2rem;
-    justify-content: space-evenly;
+    gap:6rem;
+    justify-content: space-around;
     padding-bottom: 1rem;
 }
 .hrBorder{
@@ -42,9 +42,7 @@
 }
 .footer-foot{
     margin-top: 15px;
-    text-align: center;
-    transform: scale(0.9);
-    font-size: 13px;
+    font-size: 0.75rem;
 }
 .footer-logo{
     height: 70px;
@@ -120,16 +118,12 @@
 }
 .footer-foot{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .fot{
     text-align: left;
-    width: 730px;
-}
-
-.onee{
-    padding: 0 60px 0 0px;
+    width: 580px;
 }
 .cont-foot{
     display: flex;

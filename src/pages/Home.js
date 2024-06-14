@@ -15,15 +15,17 @@ const Home = () => {
       <div className="Bann-ri">
         <div className="blue-box">
           <h1 className="mb-4" id="astro" style={{ fontSize: "2rem" }}>
-            OUTSTANDING SERVICES MAKES THE DIFFERENCE{" "}
+            Be Clean, Where Excellence Meets Your Business Needs
           </h1>
           <p style={{ fontSize: "0.85rem" }}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            We ensure your workspace is immaculate, enhancing productivity and
+            creating a healthy environment for your employees. Experience
+            top-tier cleaning services, leaving a lasting impression on clients
+            and staff alike
           </p>
           <div className="button-get-r" type="button">
             <button
+              onClick={() => nav("/about")}
               className="who-btn-gs"
               style={{
                 border: "3px solid white",
@@ -66,25 +68,10 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="heading-ri">
-            <img src={Tick} alt="" className="direct-r" />
-            <div>
-              <h3 style={{ fontWeight: "600" }}>Industry Expertise</h3>
-              <div className="dir-m-ri">
-                <p>
-                  With years of expertise in ERP solutions, we understand the
-                  intricacies of the rice mill industry and have crafted a
-                  solution that caters specifically to your needs.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div className="mission-ri">
         <div className="tes-m-ri">
-          <h6 className="fw-light"> SERVICE </h6>
-
           <h2 id="astro">
             Problem solving for all your building maintenance needs.
           </h2>
@@ -96,7 +83,7 @@ const Home = () => {
             its load of clients.
           </p>
           <div className="heading-ri">
-            <img src={Tick} alt="" className="direct-r" />
+            {/* <img src={Tick} alt="" className="direct-r" /> */}
             <div>
               <div className="dir-m-ri">
                 <p>
@@ -108,7 +95,7 @@ const Home = () => {
             </div>
           </div>
           <div className="heading-ri">
-            <img src={Tick} alt="" className="direct-r" />
+            {/* <img src={Tick} alt="" className="direct-r" /> */}
             <div>
               <div className="dir-m-ri">
                 <p>
@@ -121,7 +108,12 @@ const Home = () => {
             </div>
           </div>
           <div className="button-get-r" type="button">
-            <button onClick={()=>nav('/contact')} className="who-btn-gs">Book a free consultation</button>
+            <a
+              href="https://www.honeybook.com/widget/vision_group_cleaning_279052/cf_id/666b72c762383900258d8246"
+              target="_blank"
+            >
+              <button className="who-btn-gs">Book a free consultation</button>
+            </a>
           </div>
         </div>
 
@@ -169,7 +161,12 @@ const Home = () => {
             <li>Wipe and disinfect all workstation tables and chairs.</li>
           </ul>
           <div className="button-get-r" type="button">
-            <button onClick={()=>nav('/contact')} className="who-btn-gs">Book a free consultation</button>
+          <a
+              href="https://www.honeybook.com/widget/vision_group_cleaning_279052/cf_id/666b72c762383900258d8246"
+              target="_blank"
+            >
+              <button className="who-btn-gs">Book a free consultation</button>
+            </a>
           </div>
         </div>
       </div>
@@ -212,7 +209,12 @@ const Home = () => {
             </li>
           </ul>
           <div className="button-get-r" type="button">
-            <button onClick={()=>nav('/contact')} className="who-btn-gs">Book a free consultation</button>
+          <a
+              href="https://www.honeybook.com/widget/vision_group_cleaning_279052/cf_id/666b72c762383900258d8246"
+              target="_blank"
+            >
+              <button className="who-btn-gs">Book a free consultation</button>
+            </a>
           </div>
         </div>
 
@@ -225,7 +227,8 @@ const Home = () => {
         <div className="text-v-r">
           <h5 className="fw-bold" id="astro">
             Codes
-          </h5><br />
+          </h5>
+          <br />
           <ul style={{ color: "black", fontSize: "15px" }}>
             <li>DUNS - 100019735</li>
             <li>CAGE - 8BLG3</li>
@@ -233,7 +236,8 @@ const Home = () => {
           </ul>
           <h5 className="fw-bold" id="astro">
             Memberships:
-          </h5><br />
+          </h5>
+          <br />
           <div style={{ color: "black", fontSize: "15px", lineHeight: "15px" }}>
             <p style={{ color: "black", fontSize: "15px" }}>
               Member of the Chicago Chamber of Commerce
@@ -253,13 +257,24 @@ const Home = () => {
           </div>
           <h5 className="fw-bold" id="astro">
             Certifications:
-          </h5><br />
+          </h5>
+          <br />
           <div style={{ color: "black", fontSize: "15px", lineHeight: "15px" }}>
-            <p style={{ color: "black", fontSize: "15px" }}>Member of the Chicago Chamber of Commerce</p>
-            <p style={{ color: "black", fontSize: "15px" }}>Member of the Shreveport Chamber of Commerce</p>
-            <p style={{ color: "black", fontSize: "15px" }}>Member of the RBCA Regional Black Contractors Association</p>
-            <p style={{ color: "black", fontSize: "15px" }}>Member of the National Black Contractors Association</p>
-            <p style={{ color: "black", fontSize: "15px" }}>Member of the Atlanta Chamber of Commerce</p>
+            <p style={{ color: "black", fontSize: "15px" }}>
+              Member of the Chicago Chamber of Commerce
+            </p>
+            <p style={{ color: "black", fontSize: "15px" }}>
+              Member of the Shreveport Chamber of Commerce
+            </p>
+            <p style={{ color: "black", fontSize: "15px" }}>
+              Member of the RBCA Regional Black Contractors Association
+            </p>
+            <p style={{ color: "black", fontSize: "15px" }}>
+              Member of the National Black Contractors Association
+            </p>
+            <p style={{ color: "black", fontSize: "15px" }}>
+              Member of the Atlanta Chamber of Commerce
+            </p>
           </div>
         </div>
         <div className="rice-b-2">

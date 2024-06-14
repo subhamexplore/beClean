@@ -75,25 +75,29 @@ const Abouts = () => {
       <div className="Bann-ri" id="ab">
         <div className="blue-box">
           <h1 className="mb-4" id="astro" style={{ fontSize: "2rem" }}>
-            SERVICES THAT ADHERE TO ALL YOUR NEEDSs
+            Services That Adhere To All Your Need
           </h1>
           <p style={{ fontSize: "0.85rem" }}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500
+            Our Vision is to provide a trustworthy and quality cleaning service
+            that will far exceed the expectations of the customer the first time
+            around
           </p>
           <div className="button-get-r" type="button">
-            <button
-              onClick={() => nav("/contact")}
-              className="who-btn-gs"
-              style={{
-                border: "3px solid white",
-                borderRadius: "8px",
-                fontSize: "0.95rem",
-              }}
+            <a
+              href="https://www.honeybook.com/widget/vision_group_cleaning_279052/cf_id/666b72c762383900258d8246"
+              target="_blank"
             >
-              Contact Us
-            </button>
+              <button
+                className="who-btn-gs"
+                style={{
+                  border: "3px solid white",
+                  borderRadius: "8px",
+                  fontSize: "0.95rem",
+                }}
+              >
+                Contact Us
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -113,37 +117,40 @@ const Abouts = () => {
           </p>
           <div className="lorem-top" style={{ gap: "10px" }}>
             <div className="lorem">
-              <h5>Lorem Ipsum</h5>
+              <h5>Post & Final Construction Cleaning</h5>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                We offer comprehensive post and final construction cleaning
+                services, ensuring every detail is handled from removing debris
+                and dust to sanitizing surfaces, so your newly renovated space
+                is pristine and ready for use.
               </p>
             </div>
             <div className="lorem">
-              <h5>Lorem Ipsum</h5>
+              <h5>Covid-19 Deep Cleaning & Disinfection</h5>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                We deliver advanced COVID-19 deep cleaning using electrostatic
+                sprayers and CDC-approved disinfectants, ensuring a safe and
+                germ-free workplace.
               </p>
             </div>
           </div>
           <div className="lorem-top mt-3" style={{ gap: "10px" }}>
             <div className="lorem">
-              <h5>Lorem Ipsum</h5>
+              <h5>Commercial Cleaning</h5>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                We specialize in comprehensive commercial cleaning services,
+                including facilities management, janitorial maintenance, and
+                specialized cleaning for malls, offices, schools, and airports,
+                with a focus on safety, efficiency, and top-quality service.
               </p>
             </div>
             <div className="lorem">
-              <h5>Lorem Ipsum</h5>
+              <h5>Residential Cleaning</h5>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                We provide thorough post and final cleaning services before
+                staging and move-in, ensuring your home is pristine and ready to
+                enjoy, from utility rooms and bathrooms to kitchens and
+                bedrooms, using top-quality, products.
               </p>
             </div>
           </div>
@@ -154,7 +161,7 @@ const Abouts = () => {
         </div>
       </div>
 
-      <div className="container slider-container">
+      {/* <div className="container slider-container">
         <Slider {...carosettings}>
           <div className="d-flex justify-content-center caro-div">
             <img className="caro-slide-one" src={caro} alt="" />
@@ -169,8 +176,7 @@ const Abouts = () => {
             <img className="caro-slide-one" src={caro} alt="" />
           </div>
         </Slider>
-      </div>
-      <br />
+      </div> */}
       <br />
       <br />
       <br />

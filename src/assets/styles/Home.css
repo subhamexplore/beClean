@@ -5,10 +5,20 @@
 }
 .Bann-ri {
   background-image: url("../images/home.png");
-  /* background-position: center; */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+@media(max-width:1050px){
+  .Bann-ri {
+    background-position: -300px 0;
+  }
+}
+@media(max-width:860px){
+  .Bann-ri {
+    background-position: -400px 0;
+  }
 }
 #astro {
   font-family: astro-earth;
@@ -22,6 +32,18 @@
   border-radius: 0 0 30px 30px;
   margin: 0 90px;
   line-height: 28px;
+}
+@media(max-width:945px){
+  .blue-box {
+    background-color: #132b68;
+    height: auto;
+    width: 400px;
+    padding: 100px 50px 60px 50px;
+    color: white;
+    border-radius: 0 0 30px 30px;
+    margin: 0 90px;
+    line-height: 28px;
+  }
 }
 @media(max-width:690px){
     .blue-box{

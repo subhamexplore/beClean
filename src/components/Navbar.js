@@ -34,16 +34,6 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                    Services
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link">
-                  Projects
-                </a>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link" to={'/gallery'}>
                   Gallery
                 </Link>
@@ -54,11 +44,6 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <button className="nav-button btn" type="submit">
-                Sign In
-              </button>
-            </form>
           </div>
         </div>
       </nav>

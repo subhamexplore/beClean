@@ -8,7 +8,7 @@ function Footer() {
       <div className="footerContainer">
         <div className="onee footerSubContainer">
           <div className="footerHeadd" id="astro">
-            Let’s make something great 
+          Outstanding service makes the difference
           </div>
           <div className="footerHeadd" style={{marginTop:'-50px'}} id="astro">
             work together
@@ -17,11 +17,11 @@ function Footer() {
             <div className="footerContentSet">
               <div className="footerHighlightTextOne">CALL OUR OFFICE</div>
               <a
-                href="tel:9777798142"
+                href="tel:8179379888"
                 className="footerNormalText"
                 style={{ textDecoration: "none" }}
               >
-                + 123 456 78910
+                817-937-9888
               </a>
             </div>
             <div className="footerContentSet smss">
@@ -32,16 +32,16 @@ function Footer() {
                 SEND A MESSAGE
               </div>
               <a
-                href="mailto:orivesolutions@gmail.com"
+                href="mailto:inquiries@vgcleaning.com"
                 className="footerNormalText footerEmail"
                 style={{ textDecoration: "none" }}
               >
-                info@domain.com
+                inquiries@vgcleaning.com
               </a>
             </div>
           </div>
         </div>
-        <div className="twoo">
+        {/* <div className="twoo">
           <div className="footerSubContainer">
             <div className="footerHead">COMPANY</div>
             <div>
@@ -62,7 +62,7 @@ function Footer() {
               <div className="footerNormalText">Twitter</div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="footerSubContainer">
           <div>
             <img src={logo} alt="" className="footer-logo" />
@@ -75,7 +75,7 @@ function Footer() {
           and Terms of Service apply. You may not use this website if you do not
           agree to these terms and conditions.
         </div>
-        <div className="foooot">© 2024 All copyrights reserved by BeClean</div>
+        <div className="foooot">© 2024 All copyrights reserved by VISION Group Cleaning</div>
       </div>
       <div />
     </div>
