@@ -17,9 +17,21 @@
   .gallery{
     height: 40vw;
   }
+  .ph-gallery{
+    display: none;
+  }
 
   @media(max-width:401px){
     .gallery{
-      height: 50vw;
+      display: none;
+    }
+    .ph-gallery{
+      display: block;
+      height: 1500px;
+    }
+  }
+  @media(max-width:360px){
+    .ph-gallery{
+      height: 1400px;
     }
   }

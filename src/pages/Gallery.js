@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/styles/Gallery.css";
 import gallery from "../assets/images/gall.png"
+import view from "../assets/images/phView.png";
 
 const Gallery = () => {
   return (
@@ -20,6 +21,9 @@ const Gallery = () => {
       </div>
       <div className="gall-gallery">
         <img className="gallery" src={gallery} alt=""/>
+        <div>
+          <img className="ph-gallery" src={view} alt="" />
+        </div>
       </div>
     </div>
   );
