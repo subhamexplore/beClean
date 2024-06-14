@@ -336,9 +336,7 @@ const Abouts = () => {
               CAPABILITY STATEMENT
             </h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
+            VIGCE LLC, a certified Woman-Owned Small Business (WOSB) with over 20 years of experience, specializes in high-quality general maintenance cleaning, new construction cleaning, and sanitizing services for commercial facilities, consistently exceeding customer satisfaction.
             </p>
             <div className="button-get-r" id="donw-btn" type="button">
               <a href="https://drive.google.com/uc?export=download&id=17iVR9JrfukXVqmMuRAsTsekPX5DAdvw6">

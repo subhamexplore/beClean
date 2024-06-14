@@ -3,9 +3,10 @@ import "../assets/styles/Navbar.css"
 import { GoArrowUpRight } from "react-icons/go";
 import logo from '../assets/images/logo.png';
 import { RxHamburgerMenu } from "react-icons/rx";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const nav = useNavigate();
   return (
     <div>
       <nav className="nav-main navbar navbar-expand-lg">
@@ -39,7 +40,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={'/contact'}>
+                <Link className="nav-link" onClick={()=>{nav('/contact'); window.location.reload();}}>
                   Contact
                 </Link>
               </li>

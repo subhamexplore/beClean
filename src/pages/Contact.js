@@ -5,7 +5,7 @@ import message from "../assets/images/msg.png";
 import phone from "../assets/images/ph.png";
 import location from "../assets/images/loc.png";
 import girl from "../assets/images/g.png";
-
+import Form from "../components/Form";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -82,7 +82,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="journal-blog-y">
-        <div className="form-y">
+        {/* <div className="form-y">
           <form action="" className="form-iy" onSubmit={handleSubmit}>
             <h1 id="astro" className="form-cont-h">
               Let's Talk
@@ -191,10 +191,19 @@ const Contact = () => {
               </button>
             </div>
           </form>
+        </div> */}
+        <div className="form-emd">
+        <h1 id="astro" className="form-cont-h">
+              Let's Talk
+            </h1>
+            <p className="form-cont-p" style={{ color: "#7E7E7E" }}>
+            Get in touch with VISION Group Cleaning today to schedule a service or learn more about how we can keep your spaces immaculate and welcoming.
+            </p>
+          <Form />
         </div>
         <div className="contactRight">
           <div>
-            <img className="girl" src={girl} alt=""/>
+            <img className="girl" src={girl} alt="" />
           </div>
           <div className="contactTxt">
             <div className="reach-p">
@@ -202,7 +211,13 @@ const Contact = () => {
             </div>
             <div className="det">
               <div>Quick Contact</div>
-              <a href="mailto:inquiries@vgcleaning.com" style={{ textDecoration: "none", color:'black' }} className="">inquiries@vgcleaning.com</a>
+              <a
+                href="mailto:inquiries@vgcleaning.com"
+                style={{ textDecoration: "none", color: "black" }}
+                className=""
+              >
+                inquiries@vgcleaning.com
+              </a>
             </div>
           </div>
           <div className="contactTxt">
@@ -211,7 +226,13 @@ const Contact = () => {
             </div>
             <div className="det">
               <div>Call Us</div>
-              <a href="tel:8179379888" style={{ textDecoration: "none", color:'black' }} className="">817-937-9888</a>
+              <a
+                href="tel:8179379888"
+                style={{ textDecoration: "none", color: "black" }}
+                className=""
+              >
+                817-937-9888
+              </a>
             </div>
           </div>
           <div className="contactTxt">
@@ -221,7 +242,7 @@ const Contact = () => {
             <div className="det">
               <div>Location</div>
               <p className="">
-              2580 W. Camp Wisdom Rd.Suite 100-187 Grand Prairie, TX 75052
+                2580 W. Camp Wisdom Rd.Suite 100-187 Grand Prairie, TX 75052
               </p>
             </div>
           </div>

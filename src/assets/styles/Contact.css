@@ -17,7 +17,8 @@
 .journal-blog-y {
   display: flex;
   align-items: center;
-  padding: 60px 200px;
+  justify-content: space-around;
+  padding: 60px 120px;
 }
 .button-machine button {
   cursor: pointer;
@@ -154,6 +155,22 @@
 .form-cont-p{
     text-align: left;
 }
+
+.form-emd{
+  width: 450px;
+}
+
+@media(max-width:585px){
+  .form-emd{
+    width: 350px;
+  }
+}
+@media(max-width:360px){
+  .form-emd{
+    width: 300px;
+  }
+}
+
 @media (max-width: 1242px) {
   .journal-blog-y {
     padding: 60px 50px;
