@@ -10,9 +10,9 @@ function Footer() {
           <div className="footerHeadd" id="astro">
           Outstanding service makes the difference
           </div>
-          <div className="footerHeadd" style={{marginTop:'-50px'}} id="astro">
+          {/* <div className="footerHeadd" style={{marginTop:'-50px'}} id="astro">
             work together
-          </div>
+          </div> */}
           <div className="cont-foot">
             <div className="footerContentSet">
               <div className="footerHighlightTextOne">CALL OUR OFFICE</div>
