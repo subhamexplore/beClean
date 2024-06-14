@@ -21,12 +21,17 @@
     display: none;
   }
 
-  @media(max-width:501px){
+  @media(max-width:601px){
     .gallery{
       display: none;
     }
     .ph-gallery{
       display: block;
+      height: 2100px;
+    }
+  }
+  @media(max-width:501px){
+    .ph-gallery{
       height: 1850px;
     }
   }
